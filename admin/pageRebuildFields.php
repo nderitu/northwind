@@ -102,7 +102,7 @@
 		'logs' => array(   
 			'Id' => array('appgini' => 'INT unsigned not null primary key auto_increment '),
 			'ip' => array('appgini' => 'VARCHAR(16) '),
-			'ts' => array('appgini' => 'BIGINT '),
+			'ts' => array('appgini' => 'DATETIME '),
 			'Details' => array('appgini' => 'TEXT ')
 		)
 	);
