@@ -1,0 +1,10 @@
+<!-- Edit this file to change the layout of each record in the table view -->
+<!-- To disable clicking of a field, remove the <%%select%%> and <%%endselect%%> formatters around it-->
+
+<!-- If you wish to hide the table view header that contains the column titles, -->
+<!-- open the generated 'logs_view.php' file in your text editor and -->
+<!-- change the value of $x->ShowTableHeader to 0 -->
+
+		<td id="logs-ip-<%%VALUE(Id)%%>" class="logs-ip "><%%SELECT%%><%%VALUE(ip)%%><%%ENDSELECT%%></td>
+		<td id="logs-ts-<%%VALUE(Id)%%>" class="logs-ts text-right"><%%SELECT%%><%%VALUE(ts)%%><%%ENDSELECT%%></td>
+		<td id="logs-Details-<%%VALUE(Id)%%>" class="logs-Details "><%%SELECT%%><%%VALUE(Details)%%><%%ENDSELECT%%></td>

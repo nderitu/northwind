@@ -3,12 +3,18 @@
 	$script_name = basename($_SERVER['PHP_SELF']);
 	if($script_name == 'index.php' && isset($_GET['signIn'])){
 		?>
-		<style>
+		<!--<style>
 			body{
-				background: url("images/rentalsuccess.jpg") no-repeat fixed center center / cover;
+				background: url("images/House-for-rent-copy.jpg") no-repeat fixed center center / cover;
 			}
 		</style>
-		
+		 -->
+		 <style>
+			body{
+				background: url("images/MenuMDIImageold.jpg") no-repeat fixed center center / cover;
+				
+			}
+		</style>
 	<!--	<div class="alert alert-primary" id="benefits">
 			Benefits of becoming a member:
 			<ul>
