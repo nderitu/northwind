@@ -122,7 +122,7 @@
 			function print_invoice()
 			{
 				var selectedID = '<?php echo urlencode($selectedID); ?>';
-				window.location = 'hooks/order_invoice.php?OrderID=' + selectedID;
+				window.location = 'order_invoice.php?OrderID=' + selectedID;
 			}
 
 			function do_something_else()
