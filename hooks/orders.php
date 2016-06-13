@@ -122,7 +122,7 @@
 			function print_invoice()
 			{
 				var selectedID = '<?php echo urlencode($selectedID); ?>';
-				window.location = 'order_invoice.php?OrderID=' + selectedID;
+				window.open('order_invoice.php?OrderID=' + selectedID, '_blank');
 			}
 
 			function do_something_else()
