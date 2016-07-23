@@ -13,6 +13,12 @@
 			'icon' => 'path/to/icon' // optional icon to use with the link
 		);
 	 */
+		$homeLinks[] = array(
+         'url' => 'reports" target="blank"',
+         'title' => 'Reports',
+         'description' => '',
+         'groups' => array('*')
+      );
 
 	/*	$homeLinks[] = array(
 			'url' => 'http://bigprof.com/appgini/', 

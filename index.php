@@ -19,3 +19,5 @@
 	}else{
 		include("{$currDir}/home.php");
 	}
+
+	var_dump("{$currDir}");
